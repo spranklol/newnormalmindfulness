@@ -1,11 +1,10 @@
-
 /*========== navbar style ==========*/
 .navbar{ 
-    background: #ad0000;
+    background: #ff7b00;
 }
 
 .nav-link , .navbar-brand{ 
-    color: #f4f4f4; 
+    color: #000; 
     cursor: pointer;
 }
 
@@ -14,8 +13,8 @@
 }
 
 .nav-link:hover{ 
-    background: #f4f4f4;
-    color: #ad0000; 
+    background: rgb(255, 166, 0);
+    color: #000; 
 }
 
 .navbar-collapse{ 
@@ -23,16 +22,28 @@
 }
 
 .navbar-toggler{  
-    background:#fff !important;
+    background: rgb(255, 166, 0) !important;
 }
 
 .bg-dark{
-    background-color:#343a40!important
+    background-color:#fff!important
     }
 
 .bg-primary{
-    background-color:#007bff!important
+    background-color:#fff!important
     }
+
+
+/*==== buttons =======*/
+.searchbutton{
+    background: #ff7b00;
+    }
+ 
+
+
+
+
+
 
 
 /*========== header style ==========*/
@@ -49,7 +60,7 @@
     min-width: 100%;
     left: 0;
     top: 0;
-    background: rgba(244, 244, 244, 0.1);
+    background: #fff;
    }
 
 .description{
@@ -179,17 +190,6 @@
     transition:.1s ease-in;
    }
 
-/* team animation (buggy)
-.team .item:hover .des{
-    height: 100%;
-    background:#f973007d;
-    position: absolute;
-    width: 70%;
-    padding: 3em;
-    top: 0;
-    border-bottom-left-radius: 1;
-   }
-*/
 
 /*========== Contact style ==========*/
 .contact-form{
@@ -305,7 +305,7 @@ img {
 body{
     padding-top:4.2rem;
     padding-bottom:4.2rem;
-    background:rgba(0, 0, 0, 0.76);
+    background:#fff;
     }
     a{
      text-decoration:none !important;
